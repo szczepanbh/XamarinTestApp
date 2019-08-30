@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinTestApp", "XamarinTestApp.csproj", "{3F24F08C-27DF-4125-AA06-C2727707E55E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DEV|Any CPU = DEV|Any CPU
+		PROD|Any CPU = PROD|Any CPU
+		Release|Any CPU = Release|Any CPU
+		STAGE|Any CPU = STAGE|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.DEV|Any CPU.ActiveCfg = DEV|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.DEV|Any CPU.Build.0 = DEV|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.DEV|Any CPU.Deploy.0 = DEV|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.PROD|Any CPU.Deploy.0 = PROD|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.STAGE|Any CPU.ActiveCfg = STAGE|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.STAGE|Any CPU.Build.0 = STAGE|Any CPU
+		{3F24F08C-27DF-4125-AA06-C2727707E55E}.STAGE|Any CPU.Deploy.0 = STAGE|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C036ED5B-1EE9-4DA9-8E5E-B38008E36C20}
+	EndGlobalSection
+EndGlobal
