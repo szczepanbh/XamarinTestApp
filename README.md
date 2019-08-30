@@ -1,6 +1,6 @@
-# TeamCity and Xamarin Android - the right way!
+# Continues Integration for Xamarin Android project in  TeamCity
 
-It is not an easy job to create a project that works the same way for local and on any Continues integration tool. 
+It is not an easy job to create a project that works the same way locally and on any Continues Integration tool. 
 Team City is a great tool but it doesn't have build-in plugins for Xamarin Android so we will have to move locally tested commands to build steps.
 
 In this article I will show you how to:
@@ -407,4 +407,4 @@ If you want to do the same for STAGE and PROD just:
 2) change value of `Version` parameter to `STAGE` or `PROD` instead of `DEV`
 3) change `Artifact paths` to `bin\STAGE=> bin\STAGE` or `bin\PROD=> bin\PROD`.
 
-That's all!
+That's all. Now you have 3 apps with different configurations and names from one project and you are ready to test in against different API's, data bases or whatever you have stored in your `appsettings` file.
